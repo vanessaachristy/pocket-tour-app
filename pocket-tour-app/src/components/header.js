@@ -3,9 +3,9 @@ import {  Container, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 export const NavbarContent = styled(Navbar.Brand)`
-    text-align: center;
-    width: 100%;
-    height: 500px;
+    text-align: left;
+    width: 100vw;
+    height: 100px;
     background-color: green;
 `;
 

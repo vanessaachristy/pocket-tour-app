@@ -1,13 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import header from './components/'
+import { NavigationBar } from "./components/header";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Header />
+      <NavigationBar/>
         <Routes>
           <Route path="/" element={<div>home</div>}></Route>
           <Route path="/test" element={<div>home test</div>}></Route>
