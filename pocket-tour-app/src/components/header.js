@@ -1,10 +1,18 @@
 import styled from "styled-components";
-import { Navbar } from "react-bootstrap";
+import {  Container, Navbar } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 export const NavbarContent = styled(Navbar.Brand)`
     text-align: center;
     width: 100%;
-    margin 10px 0;
+    height: 500px;
+    background-color: green;
 `;
 
-export 
+export function NavigationBar() {
+    return <Navbar>
+        <Container>
+            <NavbarContent>MyApp</NavbarContent>
+        </Container>
+    </Navbar>
+}
