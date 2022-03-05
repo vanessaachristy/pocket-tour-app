@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pocket-tour-app/static/css/main.10717b4b.css",
-    "main.js": "/pocket-tour-app/static/js/main.08e6a39d.js",
+    "main.css": "/pocket-tour-app/static/css/main.df35009e.css",
+    "main.js": "/pocket-tour-app/static/js/main.08a7e258.js",
     "static/js/787.1d4ce3d1.chunk.js": "/pocket-tour-app/static/js/787.1d4ce3d1.chunk.js",
     "static/media/background 2.jpg": "/pocket-tour-app/static/media/background 2.e8e5a7094ee7090e8893.jpg",
     "static/media/choose-landing.jpg": "/pocket-tour-app/static/media/choose-landing.36494452720a110367ec.jpg",
@@ -10,12 +10,12 @@
     "static/media/background.jpg": "/pocket-tour-app/static/media/background.77099be76b6329a87caa.jpg",
     "static/media/logo.png": "/pocket-tour-app/static/media/logo.b8e085ded9c44be4fc43.png",
     "index.html": "/pocket-tour-app/index.html",
-    "main.10717b4b.css.map": "/pocket-tour-app/static/css/main.10717b4b.css.map",
-    "main.08e6a39d.js.map": "/pocket-tour-app/static/js/main.08e6a39d.js.map",
+    "main.df35009e.css.map": "/pocket-tour-app/static/css/main.df35009e.css.map",
+    "main.08a7e258.js.map": "/pocket-tour-app/static/js/main.08a7e258.js.map",
     "787.1d4ce3d1.chunk.js.map": "/pocket-tour-app/static/js/787.1d4ce3d1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10717b4b.css",
-    "static/js/main.08e6a39d.js"
+    "static/css/main.df35009e.css",
+    "static/js/main.08a7e258.js"
   ]
 }
