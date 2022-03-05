@@ -1,0 +1,1 @@
+PENTA, an abbreviation for Personal Navigator and Travel Assistant is an intelligent tourism web-application powered with machine learning, a web-app that has the ability to help travellers prepare their journey by offering premade or customizable itinerary, listing all relevant documents, until give navigation during the day of the trip!
