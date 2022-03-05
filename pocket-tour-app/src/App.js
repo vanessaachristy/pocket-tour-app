@@ -1,9 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { NavigationBar } from "./components/header";
-import Homepage from "./components/homepage/Homepage";
-import EditTrip from "./components/edittrip/EditTrip";
+import { NavigationBar } from "./components/pages/header/header";
+import Homepage from "./components/pages/homepage/Homepage";
+import EditTrip from "./components/pages/edittrip/EditTrip";
 
 function App() {
   return (
