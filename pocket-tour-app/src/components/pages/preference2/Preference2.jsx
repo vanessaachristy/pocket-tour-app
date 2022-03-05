@@ -14,13 +14,13 @@ export default function Preference2() {
                     </a>
 
                     <a href="http://localhost:3000/" className="item-container">
-                    <img src="assets/landmark.png" alt="mall" className = "item"/>
+                    <img src="assets/landmark.jpeg" alt="mall" className = "item"/>
                         <h5>Landmarks, Attractions and Sightseeing</h5>
                     </a>
 
                     <a href="http://localhost:3000/" className="item-container">
                     <img src="assets/culture.png" alt="nature" className = "item"/>
-                        <h5>Arts, Culture and Heritage</h5>
+                        <h5>Arts, Culture  Heritage</h5>
                     </a>
                   
             </div>
