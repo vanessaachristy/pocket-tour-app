@@ -1,0 +1,99 @@
+.choosedestination{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.choose-landing{
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    border-radius: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:  url("choose-landing.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+
+.choose-landing h1{
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+}
+
+.search-box{
+    border-radius: 25px;
+    width: 60vw;
+    height: 20vh;
+    background-color: #095F7E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box h2{
+    font-size: 20px;
+    color: white;
+}
+.search-destination{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    height: 15vh;
+}
+
+
+.search-destination input{
+    width: 40vw;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    color: #095F7E;
+    padding: 10px;
+}
+
+.popularsearch{
+    width: 90vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.popularsearch h1{
+    color: #095F7E;
+    font-weight: 700;
+
+}
+.popularsearch-container{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-evenly;
+}
+
+.popularsearch .popularsearch-item{
+    border-radius: 25px;
+    border: 5px solid #095F7E;
+    width: 15vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.popularsearch-item a{
+    text-decoration: none;
+}

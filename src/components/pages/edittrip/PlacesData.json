@@ -1,0 +1,20 @@
+[
+            {
+            "place": "Palawan Beach",
+            "img": "assets/palawan.jpg",
+            "crowd": "assets/green.png",
+            "spending": "15 SGD"
+            },
+            {
+                "place": "Trick Eye Museum",
+                "img": "assets/trickeye.jpg",
+                "crowd": "assets/orange.png",
+                "spending": "30 SGD"
+            },
+            {
+                "place": "National Orchid Garden",
+                "img": "assets/orchid.jpg",
+                "crowd": "assets/yellow.png",
+                "spending": "20 SGD"
+            }
+]

@@ -1,0 +1,146 @@
+.homepage{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    scroll-behavior: smooth;
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+    background-color: #095F7E;
+}
+
+
+.home-itinerary{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    z-index: 0;
+}
+
+.my-itinerary{
+    border-radius: 25px 25px 0 0;
+    background-color: #d9f8ef;
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 17vh;
+
+}
+.my-itinerary a{
+    color: #095F7E;
+    font-size: 25px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.my-itinerary-container{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-itinerary-title{
+    background-color: #d9f8ef;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.my-itinerary-title a{
+    text-decoration: none;
+}
+
+.my-itinerary-container .my-itinerary-title h3{
+    color: #396F66;
+    font-weight: 500;
+    text-align: left;
+    font-size: 20px;
+}
+
+.my-itinerary-container .current-day .my-itinerary-item{
+    background-color: #497C74;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.current-day .day-title h1{
+    color: white;
+}
+
+.next-day .day-title h1{
+    color: white;
+}
+
+
+.my-itinerary-container .next-day .my-itinerary-item{
+    background-color: #6FB8A2;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.day-title{
+    color: white;
+    width: 95vw;
+}
+
+.day-title h1{
+    font-size: 20px;
+    text-align: left;
+}
+.my-itinerary-wrapper{
+    width: 95vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.my-itinerary-block{
+    width: 20vw;
+    height: 15vh;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-itinerary-block h2{
+    font-size: 15px;
+    color: #095F7E;
+    text-align: center;
+}
+.my-itinerary-block img{
+    width: 20vw;
+    height: 10vh;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+}

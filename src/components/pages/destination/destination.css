@@ -1,0 +1,236 @@
+.destination{
+    background-color: white;
+    width: 100vw;
+    height: 290vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.destination h2{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #3A6657;
+}
+.destination h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.destination-landing{
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    border-radius: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:  url("choose-landing.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+
+.destination-landing h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: 2px 2px black;
+}
+
+.about-container{
+    width: 90vw;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: left;
+    align-items: center;
+}
+
+
+.mustvisit-container{
+    width: 90vw;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mustvisit-container .carouselwrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3A6657;
+    border-radius: 25px;
+}
+
+.traveladvisory-container{
+    width: 90vw;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.traveladvisory-container .container-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 65vw;
+}
+.traveladvisory-container .box-container{
+    width: 30vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box-container .box-topper{
+    background-color: #3A6657;
+    width: 30vw;
+    border-radius: 20px 20px 0 0;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-topper h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.box-topper h2{
+    font-size: 25px;
+}
+
+.box-container .box-bottom{
+    background-color: #DCEDD8;
+    width: 30vw;
+    height: 50vh;
+    border-radius:  0 0 20px 20px;
+}
+
+.box-bottom h3{
+    font-size: 15px;
+}
+
+.tripsforyou-container{
+    width: 90vw;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+
+.tripsforyou-wrapper{
+    max-width: 90vw;
+    background-color: #DCEDD8;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    overflow-y: hidden;
+
+}
+
+.tripsforyou-wrapper::-webkit-scrollbar{
+    width: 0;
+}
+.tripsforyou-block{
+    border-radius: 25px;
+    width: 25vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #3A6657;
+    color: white;
+    margin: 20px;
+    transition: all 0.25s ease-in-out;
+    scroll-snap-align: start;
+    
+
+}
+
+.details-wrapper{
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    padding: 20px;
+    height: 20vh;
+}
+
+.tripsforyou-block .details-duration{
+    background-color: white;
+    width: 6vw;
+    border-radius: 5px;
+    color: black;
+    height: 3vh;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+}
+
+.details-title{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    padding: 5px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.details-title .destination-title{
+    font-weight: 700;
+    font-size: 15px;
+    text-align: left;
+}
+
+.details-title .destination-location{
+    font-weight: 400;
+    text-align: left;
+    font-size: 10px;
+}
+.img-wrapper{
+    width: 15vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-wrapper img{
+    width: auto;
+    height: 100%;
+    border-radius: 25px 0 0 25px;
+}
+
