@@ -1,20 +1,12 @@
-import styled from "styled-components";
-import {  Container, Navbar } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import "./header.css"
+//mport MenuIcon from '@mui/icons-material/Menu';
+import { Link } from "react-router-dom";
 
-
-export const NavbarContent = styled(Navbar.Brand)`
-    text-align: left;
-    width: 100vw;
-    height: 100px;
-    background-color: red;
-`;
-
-
-export function NavigationBar() {
-    return <Navbar>
-        <Container>
-            <NavbarContent>MyApp</NavbarContent>
-        </Container>
-    </Navbar>
+export default function NavigationBar({menuOpen, setMenuOpen}) {
+  return (
+    <header className={"header " + (menuOpen && "active")}>
+      <button onClick={()=>setMenuOpen(!menuOpen)}>=</button>
+      <Link to="/"><a><h1>PENTA</h1></a></Link>
+    </header>
+  );
 }

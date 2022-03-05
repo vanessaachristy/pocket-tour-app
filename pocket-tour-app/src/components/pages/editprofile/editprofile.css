@@ -1,0 +1,111 @@
+.editprofile {
+    width: 100vw;
+    background-image:url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 30px 50px 30px;
+    margin: 0px;
+
+  }
+
+.profile-container {
+    background-color: #095F7E;
+    margin: 20px 50px 20px 50px;
+    padding: 50px;
+    border-radius: 25px;
+    color: white;
+}
+
+.detail-container {
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    margin: 10px 10px 10px 0px;
+    width: 500px;
+}
+
+.select {
+  margin: 10px 10px 10px 0px;
+  width: 522px;
+}
+
+input {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #095F7E;
+    color: white;
+    padding: 10px;
+  }
+
+select {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #095F7E;
+    color: white;
+    padding: 10px;
+  }
+
+.button {
+    margin-top: 20px;
+    background-color: white; /* Green */
+    border: none;
+    color: #095F7E;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 40px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.detail-container {
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.detail-group-title {
+  font-size: 30px;
+}
+
+.detail-form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}

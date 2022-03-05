@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -15,6 +16,7 @@
 
 .App-header {
   background-color: #282c34;
+  width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

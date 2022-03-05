@@ -1,5 +1,154 @@
-.edit{
+.edittrip{
     width: 100vw;
-    height: 100vh;
-    background-color: rgb(80, 19, 29);
+    height: 220vh;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.edittrip-landing{
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    border-radius: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:  url("singapore-landing.jpg");
+    background-position: top;
+    background-size: 100%;
+}
+
+.edittrip-landing h1{
+    text-align: left;
+    font-weight: 900;
+    color: white;
+    text-align: left;
+    width:90vw;
+    padding-left: 20px;
+}
+
+.edittrip-landing h2{
+    font-weight: 600;
+    color: white;
+    text-align: left;
+    width:90vw;
+    padding-left: 20px;
+}
+
+.edittrip-landing h3{
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    width:90vw;
+    padding-left: 20px;
+}
+.edittrip-itinerary{
+    width: 90vw;
+    height: 150vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.edittrip-itinerary .itinerary-wrapper{
+    width: 90vw;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.itinerary-wrapper h1{
+    text-align: left;
+    padding: 10px;
+    font-weight: 700;
+}
+.itinerary-wrapper .trip-wrapper{
+    max-width: 90vw;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.trip-wrapper .big-trip-block{
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.trip-wrapper .trip-block{
+    width: 25vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DCEDD8;
+    border-radius: 25px;
+}
+
+.trip-block .block-upper{
+    height: 20vh;
+}
+
+.trip-block .block-upper img{
+    width: 25vw;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+}
+
+.trip-block .block-bottom{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-bottom .crowd{
+    width:8vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.crowd img{
+    width: 3vw;
+    height:4vh;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.block-bottom .spending{
+    width:8vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+}
+.trip-block .block-bottom h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.trip-block .block-bottom h3{
+    font-size: 15px;
+    text-align: center;
 }
