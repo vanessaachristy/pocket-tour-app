@@ -2,7 +2,6 @@
   "homepage": "http://vanessaachristy.github.io/pocket-tour-app",
   "name": "pocket-tour-app",
   "version": "0.1.0",
-  "private": false,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
