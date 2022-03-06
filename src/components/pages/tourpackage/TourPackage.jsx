@@ -28,7 +28,7 @@ export default function TourPackage() {
             </div>
             <div className='tourheader-right'>
             <h2>ADD TRIP</h2>
-            <Link to="/"><ControlPointIcon/></Link>
+            <Link to="/homepage"><ControlPointIcon/></Link>
             </div>
         </div>
         <div className='tour-container'>
@@ -64,7 +64,7 @@ export default function TourPackage() {
                                 </div>
                                 <div className='block-bottom'>
                                   <h2>{places.place}</h2>
-                                  <div className="crowd"><PeopleAltOutlined/><img src={places.crowd} alt=""></img></div>
+                                  <div className="crowd" title="crowd info"><PeopleAltOutlined/><img src={places.crowd} alt=""></img></div>
                                   <div className="spending" title="estimated budget"><AttachMoney/><h3>{places.spending}</h3></div>
                                 </div>
                               </div>)}

@@ -1,5 +1,11 @@
 [
     {
+        "place": "Adventure Cove",
+        "img": "assets/adventurecove.jpg",
+        "crowd": "assets/yellow.png",
+        "spending": "20 SGD"
+    },
+    {
     "place": "Palawan Beach",
     "img": "assets/palawan.jpg",
     "crowd": "assets/green.png",
@@ -14,12 +20,6 @@
     {
         "place": "National Orchid Garden",
         "img": "assets/orchid.jpg",
-        "crowd": "assets/yellow.png",
-        "spending": "20 SGD"
-    },
-    {
-        "place": "Adventure Cove",
-        "img": "assets/adventurecove.jpg",
         "crowd": "assets/yellow.png",
         "spending": "20 SGD"
     },

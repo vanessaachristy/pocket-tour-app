@@ -29,7 +29,7 @@ export default function EditProfile() {
               <div className="detail-form">
                 <label for="fcountry">Country</label>
                 <select className="select" id="fcountry" name="country">
-                  <option value="Singaporea">Singaporea</option>
+                  <option value="Singaporea">Singapore</option>
                   <option value="Indonesia">Indonesia</option>
                   <option value="Thailand">Thailand</option>
                 </select><br/>
@@ -68,7 +68,7 @@ export default function EditProfile() {
               </div>
             </div>
             
-            <Link to="/"><button className="button">Save</button></Link>
+            <Link to="/homepage"><button className="button">Save</button></Link>
         </div>
     </div>
   )

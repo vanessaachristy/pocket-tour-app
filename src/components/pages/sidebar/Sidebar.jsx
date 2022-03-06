@@ -11,6 +11,7 @@ export default function Sidebar({menuOpen, setMenuOpen}) {
         <a href="http://localhost:3000/editprofile" className="button">Edit Profile</a>
         <a href="http://localhost:3000/mydocuments" className="button">My Documents</a>
         <Link to="/choosedestination"><a href="http://localhost:3000/" className="button">Add Trip</a></Link>
+        <Link to="/"><a href="http://localhost:3000/" className="button">Sign Out</a></Link>
     </div>
   );
 }
