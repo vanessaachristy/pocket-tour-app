@@ -16,7 +16,7 @@ export default function EditTrip() {
   return (
     <div className="edittrip">
        <div className='edittrip-landing'>
-            <h2>6 days 5 night</h2>
+            <h2>3 days 2 night</h2>
             <h1>Luxury of Singapore</h1>
             <h3>Singapore, Singapore</h3>
         </div>
@@ -34,7 +34,7 @@ export default function EditTrip() {
               </div>
               <div className='block-bottom'>
                 <h2>{places.place}</h2>
-                <div className="crowd"><PeopleAltIcon/><img src={places.crowd} alt=""></img></div>
+                <div className="crowd"  title="crowd info"><PeopleAltIcon/><img src={places.crowd} alt=""></img></div>
                 <div className="spending" title="estimated budget"><AttachMoneyIcon/><h3>{places.spending}</h3></div>
               </div>
             </div>
