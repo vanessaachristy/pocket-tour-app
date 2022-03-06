@@ -16,7 +16,7 @@ export default function Homepage() {
         </div>
         <div className='my-itinerary-container'>
           <div className='my-itinerary-title'>
-            <h3>Trip 1: Taste of Singapore</h3>
+            <h3>Trip 1: Luxury of Singapore</h3>
             <a><Link to="/edittrip"><Edit/></Link></a>
           </div>
           

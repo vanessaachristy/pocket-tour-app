@@ -28,7 +28,7 @@ export default function TourPackage() {
             </div>
             <div className='tourheader-right'>
             <h2>ADD TRIP</h2>
-            <Link to="/"><ControlPointIcon/></Link>
+            <Link to="/homepage"><ControlPointIcon/></Link>
             </div>
         </div>
         <div className='tour-container'>

@@ -6,7 +6,7 @@ export default function NavigationBar({menuOpen, setMenuOpen}) {
   return (
     <header className={"header " + (menuOpen && "active")}>
       <button onClick={()=>setMenuOpen(!menuOpen)}>=</button>
-      <Link to="/"><a><h1>PENTA</h1></a></Link>
+      <Link to="/homepage"><a><h1>PENTA</h1></a></Link>
     </header>
   );
 }

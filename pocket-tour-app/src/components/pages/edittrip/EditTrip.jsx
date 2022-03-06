@@ -17,7 +17,7 @@ export default function EditTrip() {
     <div className="edittrip">
        <div className='edittrip-landing'>
             <h2>6 days 5 night</h2>
-            <h1>Taste of Singapore</h1>
+            <h1>Luxury of Singapore</h1>
             <h3>Singapore, Singapore</h3>
         </div>
         <div className='edittrip-itinerary'>

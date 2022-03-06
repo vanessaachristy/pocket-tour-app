@@ -14,7 +14,7 @@ export default function Preference2() {
                     </a>
 
                     <a href="http://localhost:3000/" className="item-container">
-                    <img src="assets/landmark.jpeg" alt="mall" className = "item"/>
+                    <img src="assets/cablecar.jpg" alt="mall" className = "item"/>
                         <h5>Landmarks, Attractions and Sightseeing</h5>
                     </a>
 

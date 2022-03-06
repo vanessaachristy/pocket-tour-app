@@ -28,11 +28,11 @@ function App() {
     <div className="App">
      
     
-      <BrowserRouter>
+      <BrowserRouter basename="/">
       <NavigationBar meneuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Sidebar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <Routes>
-          <Route path="/" element={<Homepage/>}></Route>
+          <Route path="/homepage" element={<Homepage/>}></Route>
           <Route path="/edittrip" element={<EditTrip/>}></Route>
           <Route path="/choosedestination" element={<div><ChooseDestination/></div>}></Route>
           <Route path="/destination" element={<div><Destination/></div>}></Route>
@@ -43,7 +43,7 @@ function App() {
           <Route path="/tourpackage" element={<div><TourPackage/></div>}></Route>
           <Route path="/editprofile" element={<div><EditProfile/></div>}></Route>
           <Route path="/mydocuments" element={<div><MyDocuments/></div>}></Route>
-          <Route path="/signin" element={<div><SignIn/></div>}></Route>
+          <Route path="/" element={<div><SignIn/></div>}></Route>
           <Route path="/signup" element={<div><SignUp/></div>}></Route>
           <Route path="/preference" element={<div><Preference/></div>}></Route>
           <Route path="/preference2" element={<div><Preference2/></div>}></Route>

@@ -68,7 +68,7 @@ export default function EditProfile() {
               </div>
             </div>
             
-            <Link to="/"><button className="button">Save</button></Link>
+            <Link to="/homepage"><button className="button">Save</button></Link>
         </div>
     </div>
   )
