@@ -28,7 +28,7 @@ function App() {
     <div className="App">
      
     
-      <BrowserRouter basename="/">
+      <BrowserRouter>
       <NavigationBar meneuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Sidebar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <Routes>
