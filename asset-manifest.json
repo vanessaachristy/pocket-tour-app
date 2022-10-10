@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.460b3776.css",
-    "main.js": "/static/js/main.672e5b97.js",
-    "static/js/787.7efd31bd.chunk.js": "/static/js/787.7efd31bd.chunk.js",
-    "static/media/background 2.jpg": "/static/media/background 2.e8e5a7094ee7090e8893.jpg",
-    "static/media/choose-landing.jpg": "/static/media/choose-landing.36494452720a110367ec.jpg",
-    "static/media/mbs.jpg": "/static/media/mbs.5395cf57f6332999821f.jpg",
-    "static/media/singapore-landing.jpg": "/static/media/singapore-landing.93ee284bd697315dc57d.jpg",
-    "static/media/background.jpg": "/static/media/background.77099be76b6329a87caa.jpg",
-    "static/media/logo.png": "/static/media/logo.b8e085ded9c44be4fc43.png",
-    "index.html": "/index.html",
-    "main.460b3776.css.map": "/static/css/main.460b3776.css.map",
-    "main.672e5b97.js.map": "/static/js/main.672e5b97.js.map",
-    "787.7efd31bd.chunk.js.map": "/static/js/787.7efd31bd.chunk.js.map"
+    "main.css": "/pocket-tour-app/static/css/main.337c3f46.css",
+    "main.js": "/pocket-tour-app/static/js/main.6dc78c15.js",
+    "static/js/787.1d4ce3d1.chunk.js": "/pocket-tour-app/static/js/787.1d4ce3d1.chunk.js",
+    "static/media/background 2.jpg": "/pocket-tour-app/static/media/background 2.e8e5a7094ee7090e8893.jpg",
+    "static/media/choose-landing.jpg": "/pocket-tour-app/static/media/choose-landing.36494452720a110367ec.jpg",
+    "static/media/mbs.jpg": "/pocket-tour-app/static/media/mbs.5395cf57f6332999821f.jpg",
+    "static/media/singapore-landing.jpg": "/pocket-tour-app/static/media/singapore-landing.93ee284bd697315dc57d.jpg",
+    "static/media/background.jpg": "/pocket-tour-app/static/media/background.77099be76b6329a87caa.jpg",
+    "static/media/logo.png": "/pocket-tour-app/static/media/logo.b8e085ded9c44be4fc43.png",
+    "index.html": "/pocket-tour-app/index.html",
+    "main.337c3f46.css.map": "/pocket-tour-app/static/css/main.337c3f46.css.map",
+    "main.6dc78c15.js.map": "/pocket-tour-app/static/js/main.6dc78c15.js.map",
+    "787.1d4ce3d1.chunk.js.map": "/pocket-tour-app/static/js/787.1d4ce3d1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.460b3776.css",
-    "static/js/main.672e5b97.js"
+    "static/css/main.337c3f46.css",
+    "static/js/main.6dc78c15.js"
   ]
 }
