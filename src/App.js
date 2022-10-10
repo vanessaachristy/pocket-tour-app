@@ -30,7 +30,7 @@ function App() {
         <Sidebar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Routes>
           <Route
-            basename={process.env.PUBLIC_URL}
+            basename="/pocket-tour-app"
             path="/homepage"
             element={<Homepage />}
           ></Route>
