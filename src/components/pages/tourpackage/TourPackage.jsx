@@ -13,11 +13,11 @@ export default function TourPackage() {
 
     useEffect(()=>{
         const item1 = parseInt(Math.random()*8)
-                        const item2 = parseInt(Math.random()*8)
-                        const item3 = parseInt(Math.random()*8)
+        const item2 = parseInt(Math.random()*8)
+        const item3 = parseInt(Math.random()*8)
 
-                        const selectedItinerary = [TourData[item1], TourData[item2], TourData[item3]]
-                        setItinerary(selectedItinerary)
+        const selectedItinerary = [TourData[item1], TourData[item2], TourData[item3]]
+        setItinerary(selectedItinerary)
     }, [])
   return (
     <div className='tourpackage'>
@@ -47,7 +47,6 @@ export default function TourPackage() {
                         const item3 = parseInt(Math.random()*8)
 
                         const selectedItinerary = [TourData[item1], TourData[item2], TourData[item3]]
-                        console.log(TourData)
                         setItinerary(selectedItinerary)
                     }}
                     >
@@ -64,7 +63,7 @@ export default function TourPackage() {
                                 </div>
                                 <div className='block-bottom'>
                                   <h2>{places.place}</h2>
-                                  <div className="crowd" title="crowd info"><PeopleAltOutlined/><img src={places.crowd} alt=""></img></div>
+                                  <div className="crowd" title={places.crowdinfo}><PeopleAltOutlined/><img src={places.crowd} alt=""></img></div>
                                   <div className="spending" title="estimated budget"><AttachMoney/><h3>{places.spending}</h3></div>
                                 </div>
                               </div>)}

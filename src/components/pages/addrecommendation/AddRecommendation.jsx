@@ -31,7 +31,7 @@ export default function AddRecommendation() {
               </div>
               <div className='block-bottom'>
                 <h2>{places.place}</h2>
-                <div className="crowd" title="crowd info"><PeopleAltIcon/><img src={places.crowd} alt=""></img></div>
+                <div className="crowd" title={places.crowdinfo}><PeopleAltIcon/><img src={places.crowd} alt=""></img></div>
                 <div className="spending" title="estimated budget"><AttachMoneyIcon/><h3>{places.spending}</h3></div>
               </div>
             </div>

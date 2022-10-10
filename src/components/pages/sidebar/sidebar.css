@@ -1,53 +1,61 @@
 .sidebar {
-    width: 400px;
-    height: 100%;
-    background-color: #063d52;
-    position: fixed;
-    float: left;
-    top: 0;
-    left: -400px;
-    z-index: 20;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: all 1s ease;
+  width: 400px;
+  height: 100%;
+  background-color: #063d52;
+  position: fixed;
+  float: left;
+  top: 0;
+  left: -400px;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease;
 }
 
-.active{
-    left:0px;
+.sidebar .hide {
+  display: none;
+}
+
+.active {
+  left: 0px;
 }
 
 .button {
-    margin-top: 20px;
-    padding: 20px;
-    width: 160px;
-    background-color: white; /* Green */
-    border: none;
-    color: #095F7E;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px;
+  width: 160px;
+  background-color: white; /* Green */
+  border: none;
+  color: #095f7e;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.button-hide {
+  display: none;
 }
 
 .white {
-    color: white;
+  color: white;
 }
 
 .name {
-    font-size: 40px;
-    margin-top: 0px;
-    margin-bottom: 10px;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .wellcome {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .close {
-    float: right;
-    top: 10px;
+  float: right;
+  top: 10px;
 }

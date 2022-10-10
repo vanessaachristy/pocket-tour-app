@@ -17,17 +17,17 @@ export default function Homepage() {
         <div className='my-itinerary-container'>
           <div className='my-itinerary-title'>
             <h3>Trip 1: Luxury of Singapore</h3>
-            <a><Link to="/edittrip"><Edit/></Link></a>
+            <a href="/edittrip"><Link to="/edittrip"><Edit/></Link></a>
           </div>
           
           <div className="current-day">
             {DayData.slice(0,1).map((day)=>(
-              <div className='my-itinerary-item'>
+              <div className='my-itinerary-item' key={day.id}>
                 <div className='day-title'><h1>{day.title}</h1></div>
                 <div className='my-itinerary-wrapper'>
                 {ItineraryData.slice(0,6).map((itinerary)=>(
                       <div className='my-itinerary-block'>
-                        <img src={itinerary.img} alt=""/>
+                        <img src={itinerary.img}alt=""/>
                         <h2>{itinerary.title}</h2>
                       </div>   
                       ))}

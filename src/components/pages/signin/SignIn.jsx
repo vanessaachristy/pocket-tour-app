@@ -1,21 +1,30 @@
-import React from 'react'
-import "./signin.css"
+import React from "react";
+import "./signin.css";
 
 export default function SignIn() {
   return (
-    <div className='signin'>
-        <div className='signin-container'>
-            <h2 className="title" >Sign In</h2>
+    <div className="signin">
+      <div className="signin-container">
+        <h2 className="title">Sign In</h2>
 
-            <label for="fusername">Username </label>
-            <input className="form" type="text" id="fusername" name="fusername"/><br/>
-            <label for="fpassword">Password  </label>
-            <input className="form" type="password" id="fpassword" name="fpassword"/>
-            <br/>
-            <a href="http://localhost:3000/" className="button">Sign In</a>
-            
-            <p className="redirect">Don't have an account? <a href="http://localhost:3000/signup">Sign Up</a></p>
-        </div>
+        <label for="fusername">Username </label>
+        <input className="form" type="text" id="fusername" name="fusername" />
+        <br />
+        <label for="fpassword">Password </label>
+        <input
+          className="form"
+          type="password"
+          id="fpassword"
+          name="fpassword"
+        />
+        <br />
+        <a href="/homepage" className="button">
+          Sign In
+        </a>
+        <p className="redirect">
+          Don't have an account? <a href="/signup">Sign Up</a>
+        </p>
+      </div>
     </div>
-  )
+  );
 }

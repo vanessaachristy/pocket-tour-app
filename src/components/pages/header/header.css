@@ -1,31 +1,34 @@
 .header {
-    display:flex;
-    justify-content: space-between;
-    background-color: #063d52;
-    height: 100px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: columnn;
-    position: fixed;
-    z-index: 10;
-    
+  display: flex;
+  justify-content: space-between;
+  background-color: #063d52;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: columnn;
+  position: fixed;
+  z-index: 10;
 }
 
 .header h1 {
-    color: white;
-    margin: 20px;
+  color: white;
+  margin: 20px;
 }
 
-.header .img{
-    width: 90px;
-    height: 90px;
-    background-image: url("logo.png");
-    z-index: 20;
+.header .img {
+  width: 90px;
+  height: 90px;
+  background-image: url("logo.png");
+  z-index: 20;
 }
-.header a{
-    text-decoration: none;
+.header a {
+  text-decoration: none;
 }
 .open {
-    background-color: white;
+  background-color: white;
+}
+
+.button-hide {
+  display: none;
 }
