@@ -25,15 +25,11 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="/pocket-tour-app">
         <NavigationBar meneuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Sidebar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Routes>
-          <Route
-            basename="/pocket-tour-app"
-            path="/homepage"
-            element={<Homepage />}
-          ></Route>
+          <Route path="/homepage" element={<Homepage />}></Route>
           <Route path="/edittrip" element={<EditTrip />}></Route>
           <Route
             path="/choosedestination"
