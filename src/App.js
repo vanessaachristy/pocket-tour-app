@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import { useState } from "react";
 
 import Homepage from "./components/pages/homepage/Homepage";
@@ -26,20 +26,14 @@ function App() {
   const BASE_NAME_URL = "pocket-tour-app";
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter basename={BASE_NAME_URL}>
         <NavigationBar meneuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Sidebar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Routes>
+          <Route path="/homepage" element={<Homepage />}></Route>
+          <Route path="/edittrip" element={<EditTrip />}></Route>
           <Route
-            path={BASE_NAME_URL + "/homepage"}
-            element={<Homepage />}
-          ></Route>
-          <Route
-            path={BASE_NAME_URL + "/edittrip"}
-            element={<EditTrip />}
-          ></Route>
-          <Route
-            path={BASE_NAME_URL + "/choosedestination"}
+            path="/choosedestination"
             element={
               <div>
                 <ChooseDestination />
@@ -47,7 +41,7 @@ function App() {
             }
           ></Route>
           <Route
-            path={BASE_NAME_URL + "/destination"}
+            path="/destination"
             element={
               <div>
                 <Destination />
@@ -55,7 +49,7 @@ function App() {
             }
           ></Route>
           <Route
-            path={BASE_NAME_URL + "/carousel"}
+            path="/carousel"
             element={
               <div>
                 <CarouselPage />
@@ -63,7 +57,7 @@ function App() {
             }
           ></Route>
           <Route
-            path={BASE_NAME_URL + "/edittrip"}
+            path="/edittrip"
             element={
               <div>
                 <EditTrip />
@@ -71,7 +65,7 @@ function App() {
             }
           ></Route>
           <Route
-            path={BASE_NAME_URL + "/addrecommendation"}
+            path="/addrecommendation"
             element={
               <div>
                 <AddRecommendation />
@@ -79,7 +73,7 @@ function App() {
             }
           ></Route>
           <Route
-            path={BASE_NAME_URL + "/edittripreccs"}
+            path="/edittripreccs"
             element={
               <div>
                 <EditTripReccs />
@@ -87,7 +81,7 @@ function App() {
             }
           ></Route>
           <Route
-            path={BASE_NAME_URL + "/tourpackage"}
+            path="/tourpackage"
             element={
               <div>
                 <TourPackage />
@@ -95,7 +89,7 @@ function App() {
             }
           ></Route>
           <Route
-            path={BASE_NAME_URL + "/editprofile"}
+            path="/editprofile"
             element={
               <div>
                 <EditProfile />
@@ -103,7 +97,7 @@ function App() {
             }
           ></Route>
           <Route
-            path={BASE_NAME_URL + "/mydocuments"}
+            path="/mydocuments"
             element={
               <div>
                 <MyDocuments />
@@ -111,7 +105,8 @@ function App() {
             }
           ></Route>
           <Route
-            path={BASE_NAME_URL + "/"}
+            exact
+            path="/"
             element={
               <div>
                 <SignIn />
@@ -119,7 +114,7 @@ function App() {
             }
           ></Route>
           <Route
-            path={BASE_NAME_URL + "/signup"}
+            path="/signup"
             element={
               <div>
                 <SignUp />
@@ -127,7 +122,7 @@ function App() {
             }
           ></Route>
           <Route
-            path={BASE_NAME_URL + "/preference"}
+            path="/preference"
             element={
               <div>
                 <Preference />
@@ -135,7 +130,7 @@ function App() {
             }
           ></Route>
           <Route
-            path={BASE_NAME_URL + "/preference2"}
+            path="/preference2"
             element={
               <div>
                 <Preference2 />
@@ -143,7 +138,7 @@ function App() {
             }
           ></Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
