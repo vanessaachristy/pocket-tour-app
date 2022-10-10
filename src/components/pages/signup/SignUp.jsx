@@ -31,7 +31,7 @@ export default function SignUp() {
         />
         <br />
 
-        <a href="pocket-tour-app/preference" className="button">
+        <a href="/preference" className="button">
           Sign up
         </a>
 
