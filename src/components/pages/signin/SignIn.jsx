@@ -18,7 +18,7 @@ export default function SignIn() {
           name="fpassword"
         />
         <br />
-        <a href="/homepage" className="button">
+        <a href="pocket-tour-app/homepage" className="button">
           Sign In
         </a>
         <p className="redirect">

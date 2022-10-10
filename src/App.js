@@ -23,16 +23,23 @@ import Sidebar from "./components/pages/sidebar/Sidebar";
 function App() {
   const [menuOpen, setMenuOpen] = useState(0);
 
+  const BASE_NAME_URL = "pocket-tour-app";
   return (
     <div className="App">
-      <BrowserRouter basename="/pocket-tour-app">
+      <BrowserRouter>
         <NavigationBar meneuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Sidebar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Routes>
-          <Route path="/homepage" element={<Homepage />}></Route>
-          <Route path="/edittrip" element={<EditTrip />}></Route>
           <Route
-            path="/choosedestination"
+            path={BASE_NAME_URL + "/homepage"}
+            element={<Homepage />}
+          ></Route>
+          <Route
+            path={BASE_NAME_URL + "/edittrip"}
+            element={<EditTrip />}
+          ></Route>
+          <Route
+            path={BASE_NAME_URL + "/choosedestination"}
             element={
               <div>
                 <ChooseDestination />
@@ -40,7 +47,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/destination"
+            path={BASE_NAME_URL + "/destination"}
             element={
               <div>
                 <Destination />
@@ -48,7 +55,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/carousel"
+            path={BASE_NAME_URL + "/carousel"}
             element={
               <div>
                 <CarouselPage />
@@ -56,7 +63,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/edittrip"
+            path={BASE_NAME_URL + "/edittrip"}
             element={
               <div>
                 <EditTrip />
@@ -64,7 +71,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/addrecommendation"
+            path={BASE_NAME_URL + "/addrecommendation"}
             element={
               <div>
                 <AddRecommendation />
@@ -72,7 +79,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/edittripreccs"
+            path={BASE_NAME_URL + "/edittripreccs"}
             element={
               <div>
                 <EditTripReccs />
@@ -80,7 +87,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/tourpackage"
+            path={BASE_NAME_URL + "/tourpackage"}
             element={
               <div>
                 <TourPackage />
@@ -88,7 +95,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/editprofile"
+            path={BASE_NAME_URL + "/editprofile"}
             element={
               <div>
                 <EditProfile />
@@ -96,7 +103,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/mydocuments"
+            path={BASE_NAME_URL + "/mydocuments"}
             element={
               <div>
                 <MyDocuments />
@@ -104,7 +111,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/"
+            path={BASE_NAME_URL + "/"}
             element={
               <div>
                 <SignIn />
@@ -112,7 +119,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/signup"
+            path={BASE_NAME_URL + "/signup"}
             element={
               <div>
                 <SignUp />
@@ -120,7 +127,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/preference"
+            path={BASE_NAME_URL + "/preference"}
             element={
               <div>
                 <Preference />
@@ -128,7 +135,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/preference2"
+            path={BASE_NAME_URL + "/preference2"}
             element={
               <div>
                 <Preference2 />

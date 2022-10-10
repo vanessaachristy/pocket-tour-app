@@ -20,16 +20,16 @@ export default function Sidebar({ menuOpen, setMenuOpen }) {
       <br />
       <h3 className="white wellcome">Welcome</h3>
       <h2 className="white name">VanessaC001</h2>
-      <a href="/editprofile" className="button">
+      <a href="pocket-tour-app/editprofile" className="button">
         Edit Profile
       </a>
-      <a href="/mydocuments" className="button">
+      <a href="pocket-tour-app/mydocuments" className="button">
         My Documents
       </a>
-      <a href="/choosedestination" className="button">
+      <a href="pocket-tour-app/choosedestination" className="button">
         Add Trip
       </a>
-      <a href="/" className="button">
+      <a href="pocket-tour-app/" className="button">
         Sign Out
       </a>
     </div>
